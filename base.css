@@ -2,10 +2,12 @@
 
 .fixme1 img {
     width:200px;
+    display: block;
 }
 
-.fixme2 {
+.fixme2>div {
   font-size: 300%;
+  display: inline-block;
 }
 
 .fixme3 {
@@ -19,4 +21,5 @@
 .fixme3 li {
   font-size: 20px;
   padding: 20px;
+  display: inline-block;
 }
